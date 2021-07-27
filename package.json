@@ -1,0 +1,17 @@
+{
+  "name": "rocket-exploration",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:JoshuaMaddox/rocket-exploration.git",
+  "author": "JoshuaMaddox <joshua@cinderhousecreative.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@rocket/cli": "^0.9.10",
+    "@rocket/launch": "^0.5.5"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "rocket start",
+    "docs": "rocket build"
+  }
+}
