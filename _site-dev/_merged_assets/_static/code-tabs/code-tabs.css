@@ -1,0 +1,8 @@
+:root {
+  --code-border-radius: none;
+}
+
+code-tab > pre {
+  border-radius: 0 !important;
+  margin-bottom: 0;
+}

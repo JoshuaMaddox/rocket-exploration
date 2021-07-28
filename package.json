@@ -7,7 +7,9 @@
   "license": "MIT",
   "devDependencies": {
     "@rocket/cli": "^0.9.10",
-    "@rocket/launch": "^0.5.5"
+    "@rocket/launch": "^0.5.5",
+    "rocket-preset-code-tabs": "^0.2.9",
+    "rocket-preset-webcomponents-dev": "^0.1.6"
   },
   "type": "module",
   "scripts": {

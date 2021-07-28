@@ -39,5 +39,13 @@ touch ~/docs/section-name/category-name/index.md
 Edit site color variables in the following file:
 
 ```
-~/_site-dev/_merged_assets/variables.css
+~/docs/_assets/variables.css
+~/docs/_assets/webmanifest.json
 ```
+
+To edit syntax highlighting colors, search for `--markdown-syntax-function-color`
+
+## Important Links
+
+[Code Tabs On Github](https://github.com/bennypowers/rocket-presets/tree/main/presets/rocket-preset-code-tabs)
+[Web Components Plugin on Github](https://github.com/bennypowers/rocket-presets/tree/main/presets/rocket-preset-webcomponents-dev)

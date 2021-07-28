@@ -1,3 +1,3 @@
-# Welcome to Your Rocket Site
+# Kin Developer Docs
 
 Hello World!!

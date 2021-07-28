@@ -1,5 +1,7 @@
-import { rocketLaunch } from '@rocket/launch';
+import { rocketLaunch } from "@rocket/launch";
+import { codeTabs } from "rocket-preset-code-tabs";
+import { webcomponentsDev } from "rocket-preset-webcomponents-dev";
 
 export default {
-  presets: [rocketLaunch()],
+  presets: [codeTabs(), webcomponentsDev(), rocketLaunch()],
 };
