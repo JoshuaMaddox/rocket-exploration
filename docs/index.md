@@ -1,3 +1,1 @@
-# Kin Developer Docs
-
-Hello World!!
+# New Home

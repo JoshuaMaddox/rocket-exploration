@@ -25,5 +25,5 @@
       "purpose": "any maskable"
     }
   ],
-  "splash_pages": null
+  "splash_pages": true
 }
