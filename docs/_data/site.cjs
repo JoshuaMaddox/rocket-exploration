@@ -2,16 +2,20 @@ module.exports = function () {
   return {
     dir: "ltr",
     lang: "en",
-    name: "",
-    description: "Kin Devloper Docs",
+    name: "Kin Developers",
+    description: "Some Kin Descriptions",
     socialLinks: [
       {
         name: "GitHub",
         url: "https://github.com/modernweb-dev/rocket",
       },
       {
-        name: "Discord",
+        name: "Slack",
         url: "https://join.slack.com/t/lit-and-friends/shared_invite/zt-llwznvsy-LZwT13R66gOgnrg12PUGqw",
+      },
+      {
+        name: "Discord",
+        url: "https://discord.com",
       },
     ],
     gitSiteUrl: "https://github.com/modernweb-dev/rocket",

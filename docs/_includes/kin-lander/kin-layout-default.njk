@@ -4,15 +4,19 @@
 {% endblock htmlTag %}
 
   {% block head %}
-    {% include 'partials/head.njk' %}
+    <head>
+      {% for blockName, blockPath in _joiningBlocks.head %}
+        {% include blockPath %}
+      {% endfor %}
+    </head>
   {% endblock head %}
 
   {% block bodyTag %}
-  <body layout="{{ layout }}">
+    <body layout="{{ layout }}">
   {% endblock bodyTag %}
 
     {% block header %}
-      {% include './layout-header.njk' %}
+      {% include 'kin-lander/kin-lander-header.njk' %}
     {% endblock header%}
 
     {% block main %}

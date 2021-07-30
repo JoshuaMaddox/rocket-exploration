@@ -1,0 +1,12 @@
+{% extends 'layout-jm-default.njk' %}
+
+{% block main %}
+  <div id="content-wrapper">
+    <div class="content-area">
+      {# JMNotes: Here is where Side Bar is Instanciated #}
+      {% block content %}
+        {% include 'partials/_layoutSidebar/content.njk' %}
+      {% endblock content %}
+    </div>
+  </div>
+{% endblock main %}

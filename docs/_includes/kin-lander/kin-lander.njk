@@ -1,0 +1,56 @@
+<!doctype html>
+  {% block htmlTag %}
+    <html lang="{{ site.lang }}" dir="{{ site.dir }}">
+  {% endblock htmlTag %}
+
+  {% block head %}
+    <head>
+    {% for blockName, blockPath in _joiningBlocks.head %}
+      {% include blockPath %}
+    {% endfor %}
+    </head>
+  {% endblock head %}
+
+  {% block bodyTag %}
+    <body layout="{{ layout }}">
+  {% endblock bodyTag %}
+
+  {# {% block header %}
+      <header id="main-header"> #}
+          {# <div class="content-area">
+          {% for blockName, blockPath in _joiningBlocks.header %}
+          {% include blockPath %}
+          {% endfor %}
+          </div> #}
+      {# </header>
+  {% endblock header%} #}
+
+  {% block main %}
+    <div id="content-wrapper">
+      <div class="content-area">
+          {% block content %}
+            <main class="markdown-body">
+              {% for blockName, blockPath in _joiningBlocks._layoutHome.content %}
+                {% include blockPath %}
+              {% endfor %}
+            </main>
+          {% endblock content %}
+      </div>
+    </div>
+  {% endblock main %}
+
+  {% block footer %}
+    <footer id="main-footer">
+      {% for blockName, blockPath in _joiningBlocks.footer %}
+        {% include blockPath %}
+      {% endfor %}
+    </footer>
+  {% endblock footer %}
+  </body>
+</html>
+
+
+
+
+{# layout-home-background -> kin-layout-lander -> Kin-layout-lander-sidebar & content 
+-> kin-layout-default & sidebar & content #}

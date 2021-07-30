@@ -8,8 +8,6 @@
 
 <p class="page-slogan">{{slogan}}</p>
 
-<h2>Joshua Was Here</h2>
-
 <div class="call-to-action-list" role="list">
   {% for callToAction in callToActionItems %}
     <a class="call-to-action" href="{{ callToAction.href | url }}" role="listitem">{{ callToAction.text | safe }}</a>

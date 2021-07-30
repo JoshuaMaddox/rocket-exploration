@@ -49,3 +49,17 @@ To edit syntax highlighting colors, search for `--markdown-syntax-function-color
 
 [Code Tabs On Github](https://github.com/bennypowers/rocket-presets/tree/main/presets/rocket-preset-code-tabs)
 [Web Components Plugin on Github](https://github.com/bennypowers/rocket-presets/tree/main/presets/rocket-preset-webcomponents-dev)
+
+## Edit Home Page Sections
+
+To edit home page sections see:
+
+```
+_includes
+    _joiningBlocks
+        _layoutHome
+            content
+                10-hero.njk
+                20-reasons.njk
+                20-content-njk
+```
